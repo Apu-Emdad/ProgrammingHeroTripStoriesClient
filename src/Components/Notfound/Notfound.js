@@ -4,8 +4,8 @@ const Notfound = () => {
   return (
     <div>
       <img
-        className="d-block w-100"
-        src="https://miro.medium.com/max/1400/1*KOAfAOQ9FwAp9i2muTkGWw.png"
+        className="d-block w-50 mx-auto"
+        src="https://seranking.com/blog/wp-content/uploads/2021/01/404_01-min.jpg"
         alt=""
       />
       <h3 className="text-danger">Error-404: Not Found</h3>
