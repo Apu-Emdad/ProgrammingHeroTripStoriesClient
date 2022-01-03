@@ -23,11 +23,17 @@ const DashboardHome = (props) => {
   const handleShow = () => setShow(true);
   return (
     <>
-      <div className="text-start  mx-2 bg-secondary">
-        <Button variant="primary" onClick={handleShow}>
-          My Dashboard
-        </Button>
-        <span className="text-light px-2">Dashboard</span>
+      <div className="text-start   bg-secondary row ">
+        <div className="col-4">
+          <Button variant="primary" onClick={handleShow}>
+            Manage
+            <i class="fas fa-chevron-right ms-1"></i>
+            <i class="fas fa-chevron-right"></i>
+          </Button>
+        </div>
+        <div className="col-8 " style={{}}>
+          <h4 className="text-light px-2  text-end">My Dashboard</h4>
+        </div>
       </div>
 
       <Offcanvas show={show} onHide={handleClose}>

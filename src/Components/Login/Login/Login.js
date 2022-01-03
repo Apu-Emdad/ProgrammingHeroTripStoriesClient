@@ -55,7 +55,7 @@ const Login = () => {
       <img
         src="https://i.imgflip.com/m2257.jpg"
         alt=""
-        className="d-block w-100"
+        className="d-block w-50 mx-auto"
       />
     </div>
   );

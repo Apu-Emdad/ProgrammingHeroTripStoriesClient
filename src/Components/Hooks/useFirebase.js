@@ -48,6 +48,7 @@ const useFirebase = () => {
         })
           .then(() => {
             history.push("/");
+            history.go();
           })
           .catch((error) => {});
       })

@@ -1,3 +1,5 @@
+import "./Header.css";
+
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../Hooks/useAuth";
@@ -10,7 +12,8 @@ const Header = () => {
   const [name, setName] = useState("");
   useEffect(() => {
     setName(user.displayName);
-  }, [user]);
+    console.log(user.displayName);
+  }, [user.displayName]);
   // console.log(user);
   return (
     <>

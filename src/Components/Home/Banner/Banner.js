@@ -7,12 +7,12 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div>
-      <Carousel>
+    <div className="row banner-bg">
+      <Carousel className="col-md-6 gx-5">
         <Carousel.Item>
           <img
             className="d-block w-100  "
-            style={{ height: "70vh" }}
+            // style={{ height: "70vh" }}
             src={banner1}
             alt="bike"
           />
@@ -26,7 +26,7 @@ const Banner = () => {
           <img
             className="d-block w-100 "
             src={banner3}
-            style={{ height: "70vh" }}
+            // style={{ height: "70vh" }}
             alt="Third slide"
           />
 
@@ -39,7 +39,7 @@ const Banner = () => {
           <img
             className="d-block w-100 "
             src={banner2}
-            style={{ height: "70vh" }}
+            // style={{ height: "70vh" }}
             alt="Third slide"
           />
 
@@ -49,6 +49,12 @@ const Banner = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className="top-line col-md-6 gx-5 gy-2">
+        <div>
+          <h1>BikersBD</h1>
+          <h4>Uplifting Communities By The Power of Two Wheels</h4>
+        </div>
+      </div>
     </div>
   );
 };
