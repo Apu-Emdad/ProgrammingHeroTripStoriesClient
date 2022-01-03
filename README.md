@@ -1,5 +1,3 @@
-# Assignment 12
-
 ## BikersBD
 
 BikersBD is a full stack website built with react, node and mongodb
