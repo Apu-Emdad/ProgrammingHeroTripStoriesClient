@@ -3,8 +3,9 @@
 ## BikersBD
 
 BikersBD is a full stack website built with react, node and mongodb
-Live Site (client) -https://bikersbd-f97ab.web.app/
-Live Site (server) -https://serene-retreat-28688.herokuapp.com/services
+
+- Live Site (client) -https://bikersbd-f97ab.web.app/
+- Live Site (server) -https://serene-retreat-28688.herokuapp.com/services
 
 ## Features
 
