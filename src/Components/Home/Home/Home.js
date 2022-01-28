@@ -70,8 +70,8 @@ const Home = () => {
         </div>
       </div>
       {/* blog section  */}
-      <ReviewSection></ReviewSection>
-      <Faq></Faq>
+      {/*  <ReviewSection></ReviewSection>
+      <Faq></Faq> */}
     </div>
   );
 };

@@ -27,7 +27,7 @@ const Header = () => {
         expand="lg"
       >
         <Container>
-          <Navbar.Brand href="/home">BikersBD</Navbar.Brand>
+          <Navbar.Brand href="/home">TripStories</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav.Link as={HashLink} to="/home#home">
